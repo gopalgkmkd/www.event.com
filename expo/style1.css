@@ -1,0 +1,80 @@
+/* Basic Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Styles for Participant Page */
+
+#participant-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#participant-info div {
+	width: 48%;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	#participant-info div {
+		width: 100%;
+	}
+}
